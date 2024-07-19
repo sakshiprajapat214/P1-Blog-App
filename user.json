@@ -1,0 +1,84 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Noorullah Ansari",
+      "email": "noorsiwan00@gmail.com",
+      "mob": "8877660011",
+      "DOB": "1998-10-27",
+      "Address": "Tarwara(Siwan)",
+      "username": "noor@gmail.com",
+      "password": "Noor@123"
+    },
+    {
+      "id": 2,
+      "name": "Ankit Ansari",
+      "email": "ankit786@gmail.com",
+      "mob": "9922660033",
+      "DOB": "1999-11-11",
+      "Address": "Hydrabad",
+      "username": "ankit@gmail.com",
+      "password": "Ankit@123"
+    },
+    {
+      "id": 3,
+      "name": "raju",
+      "email": "raju11@gmail.com",
+      "mob": "9577210011",
+      "DOB": "2002-03-20",
+      "Address": "Delhi",
+      "username": "raju@gmail.com",
+      "password": "Raju@123"
+    },
+    {
+      "name": "Md Tauqeer Alam ",
+      "email": "Tauqeer@gmail.com",
+      "mobile": "8866554411",
+      "address": "Patna",
+      "dob": "2000-01-25",
+      "username": "Tauqeer@gmail.com",
+      "password": "Tauq@123",
+      "id": 4
+    },
+    {
+      "name": "Ramu",
+      "email": "ramu10@gmail.com",
+      "mobile": "6200112233",
+      "address": "Lakhnou",
+      "dob": "1995-06-06",
+      "username": "ramu@gmail.com",
+      "password": "ramu@123",
+      "id": 5
+    },
+    {
+      "name": "Jasdhir",
+      "email": "jasdhir@mail.com",
+      "mobile": "7654326789",
+      "address": "indore",
+      "dob": "1993-01-13",
+      "username": "jasdhir@gmail.com",
+      "password": "Jasdhir@123",
+      "id": 6
+    },
+    {
+      "name": "Chitra",
+      "email": "chitra@gmail.com",
+      "mobile": "7766554433",
+      "address": "Hyderabad",
+      "dob": "2002-05-16",
+      "username": "chitra@gmail.com",
+      "password": "Chitra@123",
+      "id": 7
+    },
+    {
+      "name": "Sakshi Prajapat",
+      "email": "prajapatsakshi893@gmail.com",
+      "mobile": "8694735612",
+      "address": "asdf",
+      "dob": "0002-01-22",
+      "username": "sakshiPrajapt",
+      "password": "sakshi123",
+      "id": 8
+    }
+  ]
+}

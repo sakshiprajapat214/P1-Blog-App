@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+</head>
+<link rel="icon" type="image/x-icon" href="/images/favicon.jfif">
+<link rel="stylesheet" href="./style.css">
+
+<style>
+    body {
+        background-color: white;
+        margin: 0;
+        background-image: url("./images/bgimage2.jfif");
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-family: Arial, sans-serif;
+
+    }
+
+    h1 {
+        color: darkred;
+        padding: 20px;
+        margin: 0px;
+        text-align: center;
+    }
+</style>
+
+<body>
+    <!-- navigation bar -->
+    <nav>
+        <ul>
+            <img src="./images/bloglogo.jfif" alt="" height="30px">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="add-post.html">Create Post</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li id="logout"><a href="./blog.html">Logout</a></li>
+        </ul>
+    </nav>
+
+    <!-- main content -->
+    <h1><u>Welcome to my blogs</u></h1>
+
+    <div style="display: flex;">
+        <div class="blogs">
+            Blogs:
+        </div>
+        <div class="post">
+            <div class="post-list">
+                <a href="./add-post.html?username=<script>document.write(username)</script>">New Post</a>
+            </div>
+        </div>
+    </div>
+    <div id="blog"></div>
+
+    <!-- Include the JavaScript file -->
+    <script src="home.js"></script>
+    <script>
+        var username = localStorage.getItem('username');
+    </script>
+</body>
+
+</html>
